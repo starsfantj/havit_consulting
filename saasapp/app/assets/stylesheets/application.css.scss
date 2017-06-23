@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, body {
 // Background Coloring
 .navbar, .home-callout {
   background-color: #2C2B3E;
-  border: none;
 }
 
 // Nav Styles
@@ -83,6 +82,7 @@ ul {
 
 .nav > li > a {
   color: #F1C6B8;
+  padding: 0px;
   &:hover {
     color: #F1C6B8;
     opacity: 0.75;
