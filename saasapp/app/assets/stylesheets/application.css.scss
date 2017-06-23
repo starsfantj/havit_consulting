@@ -21,14 +21,54 @@ h1, h2, h3, h4, h5, body {
   font-family: 'Spectral', serif;
 }
 
+.navbar, .home-callout {
+  background-color: #2C2B3E;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #D82B3B;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #D82B3B;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #D82B3B;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #D82B3B;
+  opacity: 0.75;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+// Footer styles
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   margin-bottom: 0;
+  color: white;
 } 
 
 .text-footer {
   margin-bottom: 0;
 }
 
+.nav > li > a, a {
+  color: #D82B3B;
+}
+
+.nav > li > a:hover, a:hover {
+  color: #D82B3B;
+  opacity: 0.75;
+}
