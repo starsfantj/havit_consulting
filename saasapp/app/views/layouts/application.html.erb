@@ -35,12 +35,12 @@
     <%= yield %>
     
     <nav class="navbar navbar-default footer" role="footer">
-      <div class="container">
+      <div class='container'>
         <div class="row">
           
           <div class="col-md-4">
-            <h4 class="text-center">Social Media</h3>
-            <ul class="nav">
+            <ul class="navi">
+              <li class="text-center"><h4>Social Media</h4></li>
               <li class="text-center">
                 <%= link_to "/", class: "text-center" do %>
                   <i class="fa fa-twitter-square"></i>
@@ -55,8 +55,8 @@
           </div>
           
           <div class="col-md-4">
-            <h4 class="text-center text-footer">HAVIT Divisions</h3>
-            <ul class="nav">
+            <ul class="navi">
+              <li class="text-center"><h4>HAVIT Divisions</h4></li>
               <li class="text-center"><%= link_to "Health", "#" %></li>
               <li class="text-center"><%= link_to "Aviation", "#" %></li>
               <li class="text-center"><%= link_to "Technology", "#" %></li>
@@ -65,7 +65,7 @@
           
           <div class="col-md-4">
             <h4 class="text-center text-footer"> </h3>
-            <ul class="nav">
+            <ul class="navi">
               <li class="text-center"><%= link_to "Contact Us", "#" %></li>
               <li class="text-center"><%= link_to "Careers", "#" %></li>
               <br />
