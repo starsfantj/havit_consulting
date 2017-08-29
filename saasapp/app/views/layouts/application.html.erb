@@ -3,7 +3,7 @@
   <head>
     <title>HAVIT Consulting</title>
     <%= csrf_meta_tags %>
-    <link href="//fonts.googleapis.com/css?family=Spectral:400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,9 +30,9 @@
             <li><div class="dropdown">
               <button class="dropbtn">Services</button>
               <div class="dropdown-content">
-                <a href="#">Health</a>
-                <a href="#">Aviation</a>
-                <a href="#">Technology</a>
+                <%= link_to "Health", health_path %>
+                <%= link_to "Aviation", aviation_path %>
+                <%= link_to "Technology", technology_path %>
               </div>
             </div></li>
           </ul>
@@ -65,9 +65,9 @@
           <div class="col-md-4">
             <ul class="navi">
               <li class="text-center"><h4>HAVIT Divisions</h4></li>
-              <li class="text-center"><%= link_to "Health", "#" %></li>
-              <li class="text-center"><%= link_to "Aviation", "#" %></li>
-              <li class="text-center"><%= link_to "Technology", "#" %></li>
+              <li class="text-center"><%= link_to "Health", health_path %></li>
+              <li class="text-center"><%= link_to "Aviation", aviation_path %></li>
+              <li class="text-center"><%= link_to "Technology", technology_path %></li>
             </ul>
           </div>
           

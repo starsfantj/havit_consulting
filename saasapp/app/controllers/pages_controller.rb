@@ -5,6 +5,12 @@ class PagesController < ApplicationController
   def about
   end
   
-  def services
+  def health
+  end
+  
+  def aviation
+  end
+  
+  def technology
   end
 end

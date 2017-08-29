@@ -21,7 +21,7 @@
 
 // Typography Styles
 h1, h2, h3, h4, h5, body {
-  font-family: 'Spectral', serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 10px;
 }
 
@@ -37,6 +37,21 @@ h1, h2, h3, h4, h5, body {
   &:hover {
     color: #F1C6B8;
     opacity: 0.75;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #FFF;
   }
 }
 
@@ -98,6 +113,7 @@ h1, h2, h3, h4, h5, body {
 
 ul {
   list-style-type: none;
+  padding-bottom: 5px;
 }
 
 .hovereffect {
@@ -136,7 +152,6 @@ ul {
 }
 
 .hovereffect h2 ul {
-  text-transform: uppercase;
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -160,7 +175,6 @@ ul {
   opacity: 0;
   filter: alpha(opacity=0);
   color: #fff;
-  text-transform: uppercase;
 }
 
 .hovereffect:hover .info, .hovereffect:hover h2 ul {
@@ -170,6 +184,7 @@ ul {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20%;
 }
 
 .col-xl-4, .col-lg-4, .col-md-4, .col-sm-12, .col-xs-12 {
