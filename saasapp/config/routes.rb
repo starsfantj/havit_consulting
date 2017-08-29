@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'aviation', to: 'pages#aviation'
   get 'technology', to: 'pages#technology'
   resources :contacts
+  get 'contact-us', to: 'contacts#new'
 end
