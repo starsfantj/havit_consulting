@@ -13,4 +13,7 @@ class PagesController < ApplicationController
   
   def technology
   end
+  
+  def careers
+  end
 end

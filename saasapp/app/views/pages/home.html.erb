@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row home-callout">
     <div class="container">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
         <div class="hovereffect">
           <%= image_tag("dumbbells.jpg", :alt=> "Health", class: "img-responsive") %>
           <div class="overlay">
@@ -16,26 +16,23 @@
         </div>
       </div>
       
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
         <div class="hovereffect">
-          <%= image_tag("aviation.jpg", :alt=> "Aviation", class: "img-responsive") %>
+          <%= image_tag("dolphin.png", :alt=> "Aviation", class: "img-responsive") %>
           <div class="overlay">
             <ul class="info text-center">
               <li><h2><%= link_to "Aviation", aviation_path %></h2></li>
-              <li>Proposal Development</li>
-              <li>Proposal Management</li>
-              <li>Program Management</li>
-              <li>Contract Negotiations</li>
-              <li>Contract Development</li>
-              <li>US Government Pricing</li>
               <li>Business Development</li>
+              <li>Program Management</li>
+              <li>Contract Negotiations and Development</li>
+              <li>US Government Pricing</li>
               <li><br /></li>
             </ul>
           </div>
         </div>
       </div>
       
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
         <div class="hovereffect">
           <%= image_tag("technology.jpg", :alt=> "Technology", class: "img-responsive") %>
           <div class="overlay">
@@ -43,7 +40,6 @@
               <li><h2><%= link_to "Technology", technology_path %></h2></li>
               <li>Web Development</li>
               <li>Graphic Design</li>
-              <li>IT Support</li>
               <li><br /></li>
             </ul>
           </div>
@@ -61,7 +57,7 @@
       <div class="well">
         <h1 class="text-center">Interested in a Consultation?</h1>
         <button type="button" class="btn btn-default btn-lg btn-block">
-          <a href="#">Contact Us Now</a>
+          <%= link_to "Contact Us Now", new_contact_path %>
         </button>
       </div>
     </div>

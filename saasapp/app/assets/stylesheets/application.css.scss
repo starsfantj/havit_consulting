@@ -19,10 +19,17 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+.expand {
+  height: 74vh;
+}
+
 // Typography Styles
 h1, h2, h3, h4, h5, body {
   font-family: 'Roboto', sans-serif;
-  margin-top: 10px;
+}
+
+blockquote {
+  text-align: center;
 }
 
 // Background Coloring
@@ -43,6 +50,7 @@ h1, h2, h3, h4, h5, body {
 .navbar-brand {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  font-size: 30px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -55,12 +63,17 @@ h1, h2, h3, h4, h5, body {
   }
 }
 
+.navbar-toggle {
+  margin-top: 13px;
+}
+
 // Style The Dropdown Button
 .dropbtn {
   background-color: #2C2B3E;
   color: #F1C6B8;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 15px;
   border: none;
   cursor: pointer;
 }
@@ -154,7 +167,6 @@ ul {
 .hovereffect h2 ul {
   text-align: center;
   position: relative;
-  font-size: 17px;
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -162,7 +174,7 @@ ul {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  margin: 50px 0 0 0;
+  margin: 15% 0 0 0;
   background-color: transparent;
 }
 
@@ -184,12 +196,18 @@ ul {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 20%;
+  border-radius: 5px;
 }
 
-.col-xl-4, .col-lg-4, .col-md-4, .col-sm-12, .col-xs-12 {
+.col-xl-4, .col-lg-4, .col-md-4, .col-sm-4, .col-xs-4 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+// About Page Styles
+.bio {
+  padding-right: 20px;
+  max-height: 50%;
 }
 
 // Footer styles

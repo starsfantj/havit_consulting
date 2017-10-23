@@ -56,14 +56,19 @@
             <ul class="navi">
               <li class="text-center"><h4>Social Media</h4></li>
               <li class="text-center">
-                <%= link_to "/", class: "text-center" do %>
-                  <i class="fa fa-twitter-square"></i>
-                  Twitter
+                <%= link_to "http://www.instagram.com/havitcoaching", class: "text-center" do %>
+                  <i class="fa fa-instagram"></i>
+                  Instagram
                 <% end %></li>
               <li class="text-center">
-                <%= link_to "/", class: "text-center" do %>
+                <%= link_to "http://www.facebook.com/havitcoaching", class: "text-center" do %>
                   <i class="fa fa-facebook-square"></i>
                   Facebook
+                <% end %></li>
+              <li class="text-center">
+                <%= link_to "https://www.linkedin.com/company/24426811/", class: "text-center" do %>
+                  <i class="fa fa-linkedin-square"></i>
+                  LinkedIn
                 <% end %></li>
             </ul>
           </div>
@@ -80,8 +85,8 @@
           <div class="col-md-4">
             <h4 class="text-center text-footer"> </h3>
             <ul class="navi">
-              <li class="text-center"><%= link_to "Contact Us", "#" %></li>
-              <li class="text-center"><%= link_to "Careers", "#" %></li>
+              <li class="text-center"><%= link_to "Contact Us", new_contact_path %></li>
+              <li class="text-center"><%= link_to "Careers", careers_path %></li>
               <br />
               <br />
               <li class="text-center"><i class="fa fa-copyright"></i> Copyright 2017 HAVIT Consulting</li>

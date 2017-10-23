@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'health', to: 'pages#health'
   get 'aviation', to: 'pages#aviation'
   get 'technology', to: 'pages#technology'
-  resources :contacts
-  get 'contact-us', to: 'contacts#new'
+  resources :contacts, only: :create
+  get 'contact-us', to: 'contacts#new', as: 'new_contact'
+  get 'careers', to: 'pages#careers'
 end
